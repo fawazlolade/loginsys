@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.site-header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    position: relative;
+
+}
+@font-face {
+    font-family: bold;
+    src: url('RobotoCondensed-Bold.ttf');
+}
+@font-face {
+    font-family: small;
+    src: url('Lato-Regular.ttf');
+}
+@font-face {
+    font-family: boldp;
+    src: url('Poppins-Medium.ttf');
+}
+.container{
+    display: flex;
+    width: 60%;
+    height: 80vh;
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.logo-content, .why-sign-up{
+    padding: 2% 8%;
+}
+.logo-content{
+    margin-top: 2rem;
+}
+.why-sign-up{
+margin: 2em 0.5rem;
+}
+
+.logo-content #logo{
+    font-size: 1.5rem;
+    font-family: bold;
+    letter-spacing: 10px;
+    color: dodgerblue;
+}
+.why-sign-up h2{
+    font-family: boldp;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.why-sign-up ul li{
+    font-family: small;
+    margin: 1rem 1.5rem;
+    font-size: 0.975rem;
+    
+}
+.image-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+padding-top: 20px;
+}
+.right h1{
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    font-family: small;
+}
+form{
+    width: 80%;
+    margin: 2rem auto;
+    
+}
+.fields{
+    margin: 1.5rem 0 0;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    padding: 8px;
+    margin: 0.4rem 0;
+}
+.submit-btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, dodgerblue, rgb(19,162,236) );
+    display: block;
+    font-size: 0.875rem;
+    font-family: small;
+    margin: 2rem auto;
+    width: 90%;
+    padding: 15px;
+}
+label{
+    font-family: small;
+    font-weight: 500;
+}
+.submit-field p{
+    font-family: small;
+    font-size: 0.975rem;
+}
